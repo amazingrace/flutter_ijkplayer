@@ -264,9 +264,9 @@ static IjkplayerPlugin *__sharedInstance;
 }
 
 -(void)initVolumeView{
-    if(!volumeView){
-        volumeView = [[MPVolumeView alloc] initWithFrame:CGRectMake(-100, 0, 10, 10)];
-    }
+    //if(!volumeView){
+        //volumeView = [[MPVolumeView alloc] initWithFrame:CGRectMake(-100, 0, 10, 10)];
+    //}
     if(!volumeViewSlider){
         for (UIView *view in [volumeView subviews]) {
             if ([view.class.description isEqualToString:@"MPVolumeSlider"]) {
